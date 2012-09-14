@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
  * Created with IntelliJ IDEA.
  * User: twer
@@ -6,9 +8,20 @@
  * To change this template use File | Settings | File Templates.
  */
 public class Context {
-    private StartPage startPage;
+    private static StartPage startPage;
+    public Context()
+    {
+        startPage = new StartPage();
+    }
 
     public static void main(String[] args){
+        startPage.showWelcomeMessage();
+        startPage.showMenuList();
+        System.out.println("Select a number to the enum");
+        Scanner in = new Scanner(System.in);
+        int input;
+        input = in.nextInt();
+        startPage.getUserInput(input);
 
 
     }

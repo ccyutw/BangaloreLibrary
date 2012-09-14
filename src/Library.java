@@ -24,15 +24,17 @@ public class Library {
 
     public String borrowBook(String bookName)
     {
-         if((bookList.get(bookName) != 0) && bookList.containsKey(bookName))
+         if( bookList.containsKey(bookName))
          {
-             bookList.bookList.get(bookName) -= 1;
+             //bookList.get(bookName) = bookList.get(bookName)-1;
              return "Thank You! Enjoy the book!";
          }
         else
              return "Sorry we don't have that book yet";
 
     }
+
+
     public void showBookList(){
         for(String bookName: bookList.keySet())
         {

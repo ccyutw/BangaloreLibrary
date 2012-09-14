@@ -44,7 +44,7 @@ public class StartPageTest {
     @Test
     public void testGetUserInput(){
         startpage.getUserInput(1);
-        assertThat(outContent.toString(), is("You want view books\n"));
+        assertThat(outContent.toString(), is("You want view books\nThinking in Java\nPro Git\nC++ Primer\n"));
     }
     @Test
     public void testErrorGetUserInput(){

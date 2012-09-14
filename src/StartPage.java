@@ -10,9 +10,11 @@ import java.util.Map;
  */
 public class StartPage {
     Map<Integer, String> menuList;
+    private Library library;
 
     public StartPage() {
         menuList = new HashMap<Integer, String>();
+        library  = new Library();
         initMenuList();
 
     }
@@ -37,6 +39,7 @@ public class StartPage {
             case 1:
             {
                 System.out.println("You want "+menuList.get(orderNumber));
+                library.showBookList();
                 break;
             }
             case 2:

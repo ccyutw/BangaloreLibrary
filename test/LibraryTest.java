@@ -1,4 +1,9 @@
+import org.junit.After;
+import org.junit.Before;
 import org.junit.Test;
+
+import java.io.ByteArrayOutputStream;
+import java.io.PrintStream;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
@@ -11,14 +16,21 @@ import static org.junit.Assert.assertThat;
 * To change this template use File | Settings | File Templates.
 */
 public class LibraryTest {
+    private ByteArrayOutputStream outContent;
+    private ByteArrayOutputStream errContent;
     private Library library;
-    public LibraryTest()
-    {
+    @Before
+    public void setUpStreams() {
         library = new Library();
+        errContent = new ByteArrayOutputStream();
+        outContent = new ByteArrayOutputStream() ;
+        System.setOut(new PrintStream(outContent));
+        System.setErr(new PrintStream(errContent));
     }
-
     @Test
     public void testShowBookList(){
+        library.showBookList();
+        assertThat(outContent.toString(), is("Thinking in Java\nPro Git\nC++ Primer\n"));
 
 
     }
@@ -26,5 +38,10 @@ public class LibraryTest {
     public void testBorrowBook() {
      assertThat(library.borrowBook("Thinking in Java"), is("Thank You! Enjoy the book!"));
 
+    }
+    @After
+    public void cleanUpStreams() {
+        System.setOut(null);
+        System.setErr(null);
     }
 }
