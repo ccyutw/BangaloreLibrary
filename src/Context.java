@@ -8,13 +8,9 @@ import java.util.Scanner;
  * To change this template use File | Settings | File Templates.
  */
 public class Context {
-    private static StartPage startPage;
-    public Context()
-    {
-        startPage = new StartPage();
-    }
 
     public static void main(String[] args){
+        StartPage startPage = new StartPage();
         startPage.showWelcomeMessage();
         startPage.showMenuList();
         System.out.println("Select a number to the enum");

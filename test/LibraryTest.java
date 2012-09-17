@@ -19,9 +19,12 @@ public class LibraryTest {
     private ByteArrayOutputStream outContent;
     private ByteArrayOutputStream errContent;
     private Library library;
+
+    public LibraryTest(){
+        library = new Library();
+    }
     @Before
     public void setUpStreams() {
-        library = new Library();
         errContent = new ByteArrayOutputStream();
         outContent = new ByteArrayOutputStream() ;
         System.setOut(new PrintStream(outContent));
