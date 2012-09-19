@@ -1,6 +1,6 @@
 import java.util.HashMap;
 import java.util.Map;
-
+import java.util.Scanner;
 /**
  * Created with IntelliJ IDEA.
  * User: twer
@@ -45,6 +45,10 @@ public class StartPage {
             case 2:
             {
                 System.out.println("You want "+menuList.get(orderNumber));
+                String  input;
+                Scanner in = new Scanner(System.in);
+                input = in.next();
+                System.out.println(library.borrowBook(input));
                 break;
             }
             default:

@@ -2,9 +2,6 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.io.ByteArrayOutputStream;
-import java.io.PrintStream;
-
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
@@ -17,44 +14,41 @@ import static org.junit.Assert.assertThat;
  */
 
 public class StartPageTest {
-    private ByteArrayOutputStream outContent;
-    private ByteArrayOutputStream errContent;
+    private IORedirection ioRedirection;
     private StartPage startpage;
 
-
-    @Before
-    public void setUpStreams() {
+    public StartPageTest(){
         startpage = new StartPage();
-        errContent = new ByteArrayOutputStream();
-        outContent = new ByteArrayOutputStream() ;
-        System.setOut(new PrintStream(outContent));
-        System.setErr(new PrintStream(errContent));
+        ioRedirection = new IORedirection();
+    }
+    @Before
+    public void beforeMothod() {
+        ioRedirection.setUpStreams();
     }
 
     @Test
     public void testShowWelcomeMessage(){
         startpage.showWelcomeMessage();
-        assertThat(outContent.toString(), is("Welcome to Bangalore Public Library!\n"));
+        assertThat(ioRedirection.getOutStreamObject().toString(), is("Welcome to Bangalore Public Library!\n"));
     }
     @Test
     public void testShowMenuList(){
         startpage.showMenuList();
-        assertThat(outContent.toString(),is("1 view books\n2 reserve a book\n"));
+        assertThat(ioRedirection.getOutStreamObject().toString(),is("1 view books\n2 reserve a book\n"));
     }
     @Test
     public void testGetUserInput(){
         startpage.getUserInput(1);
-        assertThat(outContent.toString(), is("You want view books\nThinking in Java\nPro Git\nC++ Primer\n"));
+        assertThat(ioRedirection.getOutStreamObject().toString(), is("You want view books\nThinking in Java\nPro Git\nC++ Primer\n"));
     }
     @Test
     public void testErrorGetUserInput(){
         startpage.getUserInput(5);
-        assertThat(outContent.toString(), is("Select a valid option!!\n"));
+        assertThat(ioRedirection.getOutStreamObject().toString(), is("Select a valid option!!\n"));
     }
 
     @After
-    public void cleanUpStreams() {
-        System.setOut(null);
-        System.setErr(null);
+    public void afterMethod() {
+        ioRedirection.clearUpStreams();
     }
 }
