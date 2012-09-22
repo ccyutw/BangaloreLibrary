@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6416ab5-8723-4ae8-8541-8d813922a957" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/IORedirection.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/UserCheck.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/UserCheckTest.java" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BangalorePublicLibrarySystem/FirstClass.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BangalorePublicLibrarySystem/FirstClassTest.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/IORedirection.java" afterPath="$PROJECT_DIR$/src/IORedirection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Library.java" afterPath="$PROJECT_DIR$/src/Library.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/StartPage.java" afterPath="$PROJECT_DIR$/src/StartPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UserCheck.java" afterPath="$PROJECT_DIR$/src/UserCheck.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/LibraryTest.java" afterPath="$PROJECT_DIR$/test/LibraryTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/StartPageTest.java" afterPath="$PROJECT_DIR$/test/StartPageTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/UserCheckTest.java" afterPath="$PROJECT_DIR$/test/UserCheckTest.java" />
     </list>
     <ignored path="BangalorePublicLibrarySystem.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,7 +72,7 @@
       <file leaf-file-name="StartPage.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/StartPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="38" selection-start="1344" selection-end="1344" vertical-scroll-proportion="0.0">
+            <state line="15" column="24" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,10 +80,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StartPageTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="StartPageTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/StartPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="1" selection-start="1432" selection-end="1432" vertical-scroll-proportion="0.0">
+            <state line="44" column="26" selection-start="1297" selection-end="1297" vertical-scroll-proportion="0.8637681">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,16 +94,7 @@
       <file leaf-file-name="UserCheck.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/UserCheck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="67" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserCheckTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/UserCheckTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="112" selection-start="793" selection-end="793" vertical-scroll-proportion="0.8637681">
+            <state line="26" column="67" selection-start="713" selection-end="713" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,10 +102,30 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="UserCheckTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/UserCheckTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="53" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileRead.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FileRead.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="65" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="IORedirection.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IORedirection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="30" selection-start="795" selection-end="795" vertical-scroll-proportion="0.0">
+            <state line="21" column="33" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,7 +136,7 @@
       <file leaf-file-name="Library.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Library.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="31" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
+            <state line="14" column="29" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,7 +147,7 @@
       <file leaf-file-name="LibraryTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/LibraryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="14" selection-start="339" selection-end="604" vertical-scroll-proportion="0.0">
+            <state line="29" column="107" selection-start="790" selection-end="790" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -146,7 +158,7 @@
       <file leaf-file-name="Context.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Context.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="16" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
+            <state line="12" column="7" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -177,14 +189,15 @@
         <option value="$PROJECT_DIR$/src/FirstClassTest.java" />
         <option value="$PROJECT_DIR$/test/FirstClassTest.java" />
         <option value="$PROJECT_DIR$/src/FirstClass.java" />
-        <option value="$PROJECT_DIR$/src/Library.java" />
         <option value="$PROJECT_DIR$/src/Context.java" />
-        <option value="$PROJECT_DIR$/src/StartPage.java" />
-        <option value="$PROJECT_DIR$/src/IORedirection.java" />
+        <option value="$PROJECT_DIR$/src/FileRead.java" />
         <option value="$PROJECT_DIR$/test/LibraryTest.java" />
-        <option value="$PROJECT_DIR$/test/StartPageTest.java" />
+        <option value="$PROJECT_DIR$/src/StartPage.java" />
         <option value="$PROJECT_DIR$/src/UserCheck.java" />
         <option value="$PROJECT_DIR$/test/UserCheckTest.java" />
+        <option value="$PROJECT_DIR$/src/IORedirection.java" />
+        <option value="$PROJECT_DIR$/src/Library.java" />
+        <option value="$PROJECT_DIR$/test/StartPageTest.java" />
       </list>
     </option>
   </component>
@@ -245,6 +258,20 @@
       </pane>
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BangalorePublicLibrarySystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="BangalorePublicLibrarySystem" />
@@ -322,35 +349,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserCheckTest.testShowMessage">
-    <configuration default="false" name="Context" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Context" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="BangalorePublicLibrarySystem" />
-      <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="StartPageTest" type="JUnit" factoryName="JUnit" temporary="true">
+  <component name="RunManager" selected="JUnit.All in BangalorePublicLibrarySystem">
+    <configuration default="false" name="LibraryTest" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="BangalorePublicLibrarySystem" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StartPageTest" />
+      <option name="MAIN_CLASS_NAME" value="LibraryTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -367,57 +372,79 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="StartPageTest.testShowWelcomeMessage" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="BangalorePublicLibrarySystem" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StartPageTest" />
-      <option name="METHOD_NAME" value="testShowWelcomeMessage" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="StartPageTest.testErrorGetUserInput" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="BangalorePublicLibrarySystem" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StartPageTest" />
-      <option name="METHOD_NAME" value="testErrorGetUserInput" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="UserCheckTest.testShowMessage" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="UserCheckTest.testLoginCheck" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="BangalorePublicLibrarySystem" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="UserCheckTest" />
-      <option name="METHOD_NAME" value="testShowMessage" />
+      <option name="METHOD_NAME" value="testLoginCheck" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="UserCheckTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="BangalorePublicLibrarySystem" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserCheckTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="All in BangalorePublicLibrarySystem" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="BangalorePublicLibrarySystem" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="StartPageTest.testGetUserInput" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="BangalorePublicLibrarySystem" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StartPageTest" />
+      <option name="METHOD_NAME" value="testGetUserInput" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -551,11 +578,11 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Context" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.StartPageTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.StartPageTest.testShowWelcomeMessage" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.StartPageTest.testErrorGetUserInput" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.UserCheckTest.testShowMessage" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.LibraryTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.UserCheckTest.testLoginCheck" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.UserCheckTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.All in BangalorePublicLibrarySystem" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.StartPageTest.testGetUserInput" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -591,13 +618,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="708" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.6712095" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39863715" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -695,59 +722,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Library.java">
+    <entry file="file://$PROJECT_DIR$/src/FileRead.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="31" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StartPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="38" selection-start="1344" selection-end="1344" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Context.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="16" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
+        <state line="10" column="65" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IORedirection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="30" selection-start="795" selection-end="795" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/LibraryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="14" selection-start="339" selection-end="604" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UserCheck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="67" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/StartPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="1" selection-start="1432" selection-end="1432" vertical-scroll-proportion="0.0">
+        <state line="26" column="67" selection-start="713" selection-end="713" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -756,7 +740,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/UserCheckTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="112" selection-start="793" selection-end="793" vertical-scroll-proportion="0.8637681">
+        <state line="37" column="53" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="7" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/LibraryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="107" selection-start="790" selection-end="790" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IORedirection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="33" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StartPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="24" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Library.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="29" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/StartPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="26" selection-start="1297" selection-end="1297" vertical-scroll-proportion="0.8637681">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

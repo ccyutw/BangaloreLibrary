@@ -22,7 +22,7 @@ public class StartPageTest {
         ioRedirection = new IORedirection();
     }
     @Before
-    public void beforeMothod() {
+    public void beforeMethod() {
         ioRedirection.setUpStreams();
     }
 
@@ -39,7 +39,10 @@ public class StartPageTest {
     @Test
     public void testGetUserInput(){
         startpage.getUserInput(1);
-        assertThat(ioRedirection.getOutStreamObject().toString(), is("You want view books\nThinking in Java\nPro Git\nC++ Primer\n"));
+        assertThat(ioRedirection.getOutStreamObject().toString(), is("You want view books\n" +
+                "Thinking in Java\n" +
+                "C++ Primer\n" +
+                "Pro Git\n"));
     }
     @Test
     public void testErrorGetUserInput(){

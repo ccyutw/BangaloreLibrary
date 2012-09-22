@@ -1,4 +1,4 @@
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 /**
@@ -9,22 +9,22 @@ import java.util.Map;
  * To change this template use File | Settings | File Templates.
  */
 public class Library {
-    Map<String, Integer> bookList;
+    Map< Integer,String > bookList;
 
     public Library() {
-        bookList = new HashMap<String, Integer>();
+        bookList = new LinkedHashMap< Integer,String >();
         initBookList();
     }
 
     public void initBookList(){
-        bookList.put("Thinking in Java",5);
-        bookList.put("C++ Primer",4);
-        bookList.put("Pro Git",1);
+        bookList.put(1,"Thinking in Java");
+        bookList.put(2,"C++ Primer");
+        bookList.put(3,"Pro Git");
     }
 
-    public String borrowBook(String bookName)
+    public String borrowBook(int bookNumber)
     {
-         if( bookList.containsKey(bookName))
+         if( bookList.containsKey(bookNumber))
          {
              //bookList.get(bookName) = bookList.get(bookName)-1;
              return "Thank You! Enjoy the book!";
@@ -36,7 +36,7 @@ public class Library {
 
 
     public void showBookList(){
-        for(String bookName: bookList.keySet())
+        for(String bookName: bookList.values())
         {
             System.out.println(bookName);
         }

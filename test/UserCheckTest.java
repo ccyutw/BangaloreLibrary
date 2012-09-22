@@ -1,3 +1,4 @@
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -18,6 +19,7 @@ public class UserCheckTest {
     public UserCheckTest(){
         ioRedirection = new IORedirection();
         userCheck = new UserCheck();
+        userCheck.initUserList();
     }
     @Before
     public void beforeMethod() {
@@ -27,8 +29,19 @@ public class UserCheckTest {
     public void testShowMessage()
     {
         userCheck.showMessage();
-        assertThat(ioRedirection.getOutStreamObject().toString(),is("Please talk to Librarian. Thank you.\n"));
+        assertThat(ioRedirection.getOutStreamObject().toString(), is("Please talk to Librarian. Thank you.\n"));
     }
+
+    @Test
+    public void testLoginCheck(){
+        assertThat(userCheck.loginCheck("111-1112","123457"), is(true));
+        assertThat(userCheck.loginCheck("1123","234"), is(false));
+    }
+    @After
+    public void afterMethod(){
+        ioRedirection.clearUpStreams();
+    }
+
 
 
 }

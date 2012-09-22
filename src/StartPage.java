@@ -44,10 +44,11 @@ public class StartPage {
             }
             case 2:
             {
-                System.out.println("You want "+menuList.get(orderNumber));
-                String  input;
+                System.out.println("You want "+menuList.get(orderNumber)+"Please choose the number of books");
+                library.showBookList();
+                int input;
                 Scanner in = new Scanner(System.in);
-                input = in.next();
+                input = Integer.parseInt(in.next());
                 System.out.println(library.borrowBook(input));
                 break;
             }

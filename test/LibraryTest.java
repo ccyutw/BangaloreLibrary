@@ -27,13 +27,13 @@ public class LibraryTest {
     @Test
     public void testShowBookList(){
         library.showBookList();
-        assertThat(ioRedirection.getOutStreamObject().toString(), is("Thinking in Java\nPro Git\nC++ Primer\n"));
+        assertThat(ioRedirection.getOutStreamObject().toString(), is("Thinking in Java\nC++ Primer\nPro Git\n"));
 
 
     }
     @Test
     public void testBorrowBook() {
-     assertThat(library.borrowBook("Thinking in Java"), is("Thank You! Enjoy the book!"));
+     assertThat(library.borrowBook(1), is("Thank You! Enjoy the book!"));
 
     }
     @After

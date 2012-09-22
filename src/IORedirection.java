@@ -28,7 +28,7 @@ public class IORedirection {
     }
 
     public void clearUpStreams(){
-        System.setOut(null);
-        System.setErr(null);
+        System.setOut(System.out);
+        System.setErr(System.err);
     }
 }
