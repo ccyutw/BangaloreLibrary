@@ -2,6 +2,8 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.io.IOException;
+
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
@@ -37,7 +39,7 @@ public class StartPageTest {
         assertThat(ioRedirection.getOutStreamObject().toString(),is("1 view books\n2 reserve a book\n"));
     }
     @Test
-    public void testGetUserInput(){
+    public void testGetUserInput() throws IOException {
         startpage.getUserInput(1);
         assertThat(ioRedirection.getOutStreamObject().toString(), is("You want view books\n" +
                 "Thinking in Java\n" +
@@ -45,7 +47,7 @@ public class StartPageTest {
                 "Pro Git\n"));
     }
     @Test
-    public void testErrorGetUserInput(){
+    public void testErrorGetUserInput() throws IOException {
         startpage.getUserInput(5);
         assertThat(ioRedirection.getOutStreamObject().toString(), is("Select a valid option!!\n"));
     }

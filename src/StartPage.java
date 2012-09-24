@@ -1,3 +1,6 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -11,9 +14,11 @@ import java.util.Scanner;
 public class StartPage {
     Map<Integer, String> menuList;
     private Library library;
+    private BufferedReader bufferRead;
 
     public StartPage() {
         menuList = new HashMap<Integer, String>();
+        bufferRead = new BufferedReader(new InputStreamReader(System.in));
         library  = new Library();
         initMenuList();
 
@@ -21,6 +26,7 @@ public class StartPage {
     private void initMenuList(){
         menuList.put(1,"view books");
         menuList.put(2,"reserve a book");
+        menuList.put(3,"Login");
     }
     public void showMenuList(){
          for(int i:menuList.keySet())
@@ -33,7 +39,7 @@ public class StartPage {
         System.out.println("Welcome to Bangalore Public Library!");
     }
 
-    public void getUserInput(int orderNumber){
+    public void getUserInput(int orderNumber) throws IOException {
         switch (orderNumber)
         {
             case 1:
@@ -51,6 +57,18 @@ public class StartPage {
                 input = Integer.parseInt(in.next());
                 System.out.println(library.borrowBook(input));
                 break;
+            }
+            case 3:
+            {
+                UserCheck userCheck = new UserCheck();
+                System.out.println("please input your username");
+                String username = bufferRead.readLine();
+                System.out.println("please input your password");
+                String password = bufferRead.readLine();
+                System.out.println(userCheck.loginCheck(username,password));
+                break;
+
+
             }
             default:
             {

@@ -34,8 +34,8 @@ public class UserCheckTest {
 
     @Test
     public void testLoginCheck(){
-        assertThat(userCheck.loginCheck("111-1112","123457"), is(true));
-        assertThat(userCheck.loginCheck("1123","234"), is(false));
+        assertThat(userCheck.loginCheck("111-1112","123457"), is("Login success"));
+        assertThat(userCheck.loginCheck("1123","234"), is("Wrong username or password"));
     }
     @After
     public void afterMethod(){

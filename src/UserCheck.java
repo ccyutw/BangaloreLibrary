@@ -10,6 +10,7 @@ import java.util.Map;
  */
 public class UserCheck {
 
+
     private Map<String, String> userList;
 
     public UserCheck(){
@@ -26,15 +27,16 @@ public class UserCheck {
     public void showMessage(){
         System.out.println("Please talk to Librarian. Thank you.");
     }
-    public boolean loginCheck(String userID, String password){
+    public String  loginCheck(String userID, String password){
         if(password.equals(userList.get(userID)))
         {
             System.out.println(userID+   password);
-            return true;
+            return "Login success";
         }
         else
         {
-            return false;
+            return "Wrong username or password";
+
         }
     }
 

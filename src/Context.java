@@ -1,3 +1,4 @@
+import java.io.IOException;
 import java.util.Scanner;
 
 /**
@@ -9,15 +10,18 @@ import java.util.Scanner;
  */
 public class Context {
 
-    public static void main(String[] args){
+    public static void main(String[] args) throws IOException {
         StartPage startPage = new StartPage();
         startPage.showWelcomeMessage();
-        startPage.showMenuList();
-        System.out.println("Select a number to the enum");
         Scanner in = new Scanner(System.in);
-        int input;
-        input = in.nextInt();
-        startPage.getUserInput(input);
+        int input = 1;
+        while (input!=0){
+            startPage.showMenuList();
+            System.out.println("Select a number to the enum");
+            input = in.nextInt();
+            startPage.getUserInput(input);
+        }
+        }
 
 
     }
