@@ -2,17 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6416ab5-8723-4ae8-8541-8d813922a957" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/ContextTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/MovieTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/BangaloreLibrary.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BangalorePublicLibrarySystem/Context.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BangalorePublicLibrarySystem/FirstClass.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BangalorePublicLibrarySystem/IORedirection.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BangalorePublicLibrarySystem/Library.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BangalorePublicLibrarySystem/StartPage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BangalorePublicLibrarySystem/UserCheck.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BangalorePublicLibrarySystem/FirstClassTest.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FileRead.java" afterPath="$PROJECT_DIR$/src/Movie.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BangalorePublicLibrarySystem/LibraryTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BangalorePublicLibrarySystem/StartPageTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BangalorePublicLibrarySystem/UserCheckTest.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Context.java" afterPath="$PROJECT_DIR$/src/Context.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/StartPage.java" afterPath="$PROJECT_DIR$/src/StartPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UserCheck.java" afterPath="$PROJECT_DIR$/src/UserCheck.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/StartPageTest.java" afterPath="$PROJECT_DIR$/test/StartPageTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/UserCheckTest.java" afterPath="$PROJECT_DIR$/test/UserCheckTest.java" />
     </list>
     <ignored path="BangalorePublicLibrarySystem.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -103,7 +104,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserCheckTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="UserCheckTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/UserCheckTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="25" column="57" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0">
@@ -154,10 +155,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Context.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Context.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Context.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="39" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0">
+            <state line="27" column="0" selection-start="683" selection-end="683" vertical-scroll-proportion="0.6956522">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -344,6 +345,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
+    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.searchVisible" value="true" />
@@ -618,7 +620,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="708" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -629,7 +631,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -772,15 +774,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Context.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="39" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/ContextTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="0" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0">
@@ -799,6 +792,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/UserCheckTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="57" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/StartPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="45" column="1" selection-start="1288" selection-end="1288" vertical-scroll-proportion="0.0">
@@ -808,9 +810,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/UserCheckTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Context.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="57" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0">
+        <state line="27" column="0" selection-start="683" selection-end="683" vertical-scroll-proportion="0.6956522">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
